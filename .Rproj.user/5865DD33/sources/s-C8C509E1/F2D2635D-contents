@@ -1,0 +1,16 @@
+name: "my-website"
+navbar:
+  title: "My Website"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-info
+      href: about.html
+    - text: "Portfolio"
+      icon: fa-r-project
+      menu:
+        - text: "Sentiment Analysis"
+          href: Sentiment-Analysis.html

@@ -1,0 +1,5 @@
+"0","if(!require(tidytext)) {"
+"0","  install.packages(""tidytext"")"
+"0","  }"
+"0","library(tidytext)"
+"0","sentiments"

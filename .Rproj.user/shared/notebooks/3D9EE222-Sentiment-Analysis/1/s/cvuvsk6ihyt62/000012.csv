@@ -1,0 +1,23 @@
+"0",""
+"0",""
+"0","library(reshape2)"
+"2","
+Attaching package: ‘reshape2’
+
+"
+"2","The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+"
+"0","library(wordcloud)"
+"2","Loading required package: RColorBrewer
+"
+"0","tidy_data %>%"
+"0"," inner_join(bing) %>%"
+"0"," count(word, sentiment, sort = TRUE) %>%"
+"0"," acast(word ~ sentiment, value.var = ""n"", fill = 0) %>%"
+"0"," comparison.cloud(colors = c(""red"", ""dark green""),"
+"0","          max.words = 100)"
+"2","Joining, by = ""word""
+"

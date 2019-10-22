@@ -1,0 +1,8 @@
+"0",""
+"0",""
+"0","counting_words <- tidy_data %>%"
+"0"," inner_join(bing) %>%"
+"0"," count(word, sentiment, sort = TRUE)"
+"2","Joining, by = ""word""
+"
+"0","head(counting_words)"
